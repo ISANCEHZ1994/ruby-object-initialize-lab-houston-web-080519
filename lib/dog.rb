@@ -9,8 +9,8 @@ class Dog
    return  @name
   end
   
-  def breed=("Mutt")
-    return @breed
+  def breed=(name)
+     @breed = name
   end
   
   
